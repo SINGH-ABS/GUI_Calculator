@@ -1,4 +1,4 @@
-package Scientific_Calculators;
+package GUICalculator;
 
 import java.awt.EventQueue;
 import javax.swing.JFrame;
@@ -18,7 +18,7 @@ import javax.swing.border.LineBorder;
 import java.awt.Color;
 import javax.swing.DefaultComboBoxModel;
 
-public class ScientificCalculator {
+public class GuiCalculator {
 
 	private JFrame frmStandardCalculator;
 	private JTextField txtDisplay;
@@ -48,7 +48,7 @@ public class ScientificCalculator {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
-					ScientificCalculator window = new ScientificCalculator();
+					GuiCalculator window = new GuiCalculator();
 					window.frmStandardCalculator.setVisible(true);
 				} catch (Exception e) {
 					e.printStackTrace();
@@ -60,7 +60,7 @@ public class ScientificCalculator {
 	/**
 	 * Create the application.
 	 */
-	public ScientificCalculator() {
+	public GuiCalculator() {
 		initialize();
 	}
 
